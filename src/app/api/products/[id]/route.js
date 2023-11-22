@@ -1,4 +1,4 @@
-import getUsers from "@/lib/users";
+import getUsers from "@/lib/products";
 
 export function GET(request, { params }) {
     let users = getUsers();
